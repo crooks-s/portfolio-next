@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 1,
     title: "Random Quote Generator",
-    description: "Project 1 description",
+    description: "This application presents a random quote generated from a hard-coded array of objects, at a set interval. There's also a button to show a random quote from the array.",
     image: "/images/projects/1.png",
     gitUrl: "https://github.com/crooks-s/a_random_quote_generator-v1",
     liveUrl: "https://crooks-s.github.io/a_random_quote_generator-v1/",
@@ -15,7 +15,7 @@ const projectsData = [
   {
     id: 2,
     title: "Data Pagination and Filtering",
-    description: "Project 2 description",
+    description: "This application presents a list of students in a hard-coded data file. A pagination feature and a 'real-time' search function is added to the application.",
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/crooks-s/data-pagination-and-filtering-v1",
     liveUrl: "https://crooks-s.github.io/data-pagination-and-filtering-v1/",
@@ -23,7 +23,7 @@ const projectsData = [
   {
     id: 3,
     title: "Interactive Form",
-    description: "Project 3 description",
+    description: "This is a web form that provides real-time, input feedback to the user for each form field. Some form fields are disabled on certain selections to prevent the user from submitting conflicting data.",
     image: "/images/projects/3.png",
     gitUrl: 'https://github.com/crooks-s/interactive-form-v3',
     liveUrl: 'https://crooks-s.github.io/interactive-form-v3/'
@@ -31,7 +31,7 @@ const projectsData = [
   {
     id: 4,
     title: "Phrase Hunter Game",
-    description: "Project 4 description",
+    description: "This is a game called 'Phrase Hunter' that provides the player with a hidden phrase. The player must choose letters in order to correctly guess the phrase. The player may use the on-display keys or physical keyboard.",
     image: "/images/projects/4.png",
     gitUrl: "https://github.com/crooks-s/oop_game-v2",
     liveUrl: "https://crooks-s.github.io/oop_game-v2/",
@@ -39,7 +39,7 @@ const projectsData = [
   {
     id: 5,
     title: "User Files - Fetch API & Modal",
-    description: "Project 5 description",
+    description: "This application retrieves 12 random users from the 'randomuser.me' API and displays a modal when a user card is clicked.",
     image: "/images/projects/5.png",
     gitUrl: "https://github.com/crooks-s/student-files/",
     liveUrl: "https://crooks-s.github.io/student-files/",
@@ -47,7 +47,7 @@ const projectsData = [
   {
     id: 6,
     title: "Original Portfolio Site",
-    description: "Project 6 description",
+    description: "This is my original portfolio site that was created with Express.js, Node.js, and Pug.",
     image: "/images/projects/6.png",
     gitUrl: "https://github.com/crooks-s/static_node_and_express_site-v1",
     liveUrl: "https://crooksog.up.railway.app/",
@@ -55,7 +55,7 @@ const projectsData = [
   {
     id: 7,
     title: "React Gallery Application",
-    description: "Project 7 description",
+    description: "This SPA uses the Flickr API to generate photos of pre-selected serach tags. The user may also search for a specific tag using the search field. *NOTE: I am not hosting a live version due to an issue with the API key on deployment.",
     image: "/images/projects/7.png",
     gitUrl: "https://github.com/crooks-s/react_gallery_app-v1",
     liveUrl: null,
@@ -63,7 +63,7 @@ const projectsData = [
   {
     id: 8,
     title: "SQL Library Manager",
-    description: "Project 8 description",
+    description: "This application presents a library database in which users may perform CRUD operations. This application was made with Express, SQL, and Pug.",
     image: "/images/projects/8.png",
     gitUrl: "https://github.com/crooks-s/sql_library_manager-v1",
     liveUrl: "https://lib-mgr.up.railway.app",
@@ -71,7 +71,7 @@ const projectsData = [
   {
     id: 9,
     title: "Full Stack Application - School Database",
-    description: "Project 9 & 10 description",
+    description: "This full stack application combines projects 9 and 10. Project 9 is the back-end API made with Express and SQL. Project 10 is the front-end made with React.js.",
     image: "/images/projects/10.png",
     gitUrl: "https://github.com/crooks-s/full-stack-app-with-react-and-a-rest-api-v1",
     liveUrl: "https://fullstackapp.up.railway.app/",
