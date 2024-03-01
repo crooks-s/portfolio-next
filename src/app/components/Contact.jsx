@@ -39,8 +39,8 @@ const Contact = () => {
       {/* PITCH VIDEO */}
       <div id='intro-video' className='flex flex-col gap-4'>
         <iframe
-          width="420"
-          height="236"
+          width="460"
+          height="256"
           src="https://www.youtube.com/embed/WdoUOsTDpEw?si=qK71N7R3qgT6Wp16"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
