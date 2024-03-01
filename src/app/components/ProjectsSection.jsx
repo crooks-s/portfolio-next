@@ -50,7 +50,7 @@ const projectsData = [
     description: "Project 6 description",
     image: "/images/projects/6.png",
     gitUrl: "https://github.com/crooks-s/static_node_and_express_site-v1",
-    liveUrl: "crooksog.up.railway.app",
+    liveUrl: "https://crooksog.up.railway.app/",
   },
   {
     id: 7,
