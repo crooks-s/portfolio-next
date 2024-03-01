@@ -69,7 +69,7 @@ const HeroSection = () => {
             2024 Graduate of <em>Treehouse Full Stack Java Script TechDegree</em> coding bootcamp. Leveraging my problem-solving and leadership skills as a BSN-RN, combined with my skills as a developer, I'm eager to collaborate with driven professionals to provide high-quality solutions and positive business outcomes.
           </p>
 
-          {/* LINKS */}
+          {/* LINKS/BUTTONS */}
           <div>
             <Link
               href="/#contact"
