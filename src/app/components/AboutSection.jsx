@@ -36,7 +36,7 @@ const tabData = [
     content: (
       <ul className="list-disc pl-2">
         <li>Code reviews and constructive feedback for Treehouse students on Slack/Discord</li>
-        <li>2023 Hacktober Fest: Creator Con 2023 participant</li>
+        <li>2023 Hacktober Fest: CreatorCon Hackathon participant</li>
         <li>ICU, CVICU RN - Leader, patient advocate, mentor.</li>
       </ul>
     ),
