@@ -41,7 +41,7 @@ const Contact = () => {
         <iframe
           width="460"
           height="256"
-          src="https://www.youtube.com/embed/WdoUOsTDpEw?si=qK71N7R3qgT6Wp16"
+          src="https://youtu.be/xlzXcWdf4o0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           style={{maxWidth: "420px"}}
