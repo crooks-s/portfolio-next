@@ -100,7 +100,7 @@ const HeroSection = () => {
           animate={isSmallScreen ? "smallScreen" : "largeScreen"}
           transition={{ duration: 0.5 }}
           variants={{
-            hidde: { opacity: 0, scale: 0.5 },
+            hidden: { opacity: 0, scale: 0.5 },
             smallScreen: smallScreenVariant,
             largeScreen: largeScreenVariant
           }}
