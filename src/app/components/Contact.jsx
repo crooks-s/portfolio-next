@@ -12,7 +12,7 @@ const Contact = () => {
         {/* SUMMARY */}
         <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
-          I am looking for opportunities as a full stack software developer! My inbox is open for any inquiries, questions, or even if you'd just like to chat! Email me at SEAN.CROOKS.P@GMAIL.COM
+          I am looking for opportunities as a full stack software developer! My inbox is open for any inquiries, questions, or even if you'd just like to chat! Email me at <strong>SEAN.CROOKS.P@GMAIL.COM</strong>
         </p>
 
         {/* SOCIAL MEDIA LINKS */}
