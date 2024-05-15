@@ -78,7 +78,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1IxxAcRxXAfdRw3NK9V-8ryJsWDYzSFcN/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1vzAIzZ2oe4UXtGLpc6-qoiKz4xFw3pIk/view?usp=drive_link"
               target="_blank"
               className="px-1 mr-4 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#4397c5] to-[#90E0EF] hover:bg-slate-800 text-white mt-3"
             >
