@@ -10,12 +10,14 @@ const tabData = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
         <li>ReactJS</li>
         <li>NextJS</li>
-        <li>SQL</li>
-        <li>HTML/CSS</li>
+        <li>ExpressJS, Pug</li>
+        <li>SQL, mongoDB</li>
+        <li>NodeJS</li>
+        <li>Firebase, Supabase</li>
       </ul>
     ),
   },
@@ -35,9 +37,10 @@ const tabData = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Code reviews and constructive feedback for Treehouse students on Slack/Discord</li>
-        <li>2023 Hacktober Fest: CreatorCon Hackathon participant</li>
+        <li>Active contributor of Treehouse's public repositories; multiple, thorougly constructed PRs on GitHub.</li>
+        <li>Code reviews and feedback for Treehouse students in Discord.</li>
         <li>ICU, CVICU RN - Leader, patient advocate, mentor.</li>
+
       </ul>
     ),
   },
@@ -65,7 +68,7 @@ const AboutSection = () => {
           {/* About me description/info */}
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I aim to create innovative solutions to boost productivity and improve accessibility through implementing WCAG guidelines.<br /><br />
+          I aim for excellence in software development by adhering to standards such as 'maintainable software', JSDocs, and conventional commits.<br /><br />
           My critical-care nursing skills seamlessly translate into software development, offering a blend of professionalism, attention to detail, and adaptability; all of which are essential to effective problem-solving and user-centered software development. I excel in multi-disciplinary teams, demonstrating strong leadership and exceptional communication abilities to facilitate team progress. <br /><br />
           I am always looking for change and enjoy challening myself to new experiences and skillsets. 
           </p>

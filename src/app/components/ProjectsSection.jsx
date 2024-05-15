@@ -5,14 +5,6 @@ import ProjectCard from "./ProjectCard";
 // Holds all individual project info.
 const projectsData = [
   {
-    id: 1,
-    title: "Random Quote Generator",
-    description: "This application presents a random quote generated from a hard-coded array of objects, at a set interval. There's also a button to show a random quote from the array.",
-    image: "/images/projects/1.png",
-    gitUrl: "https://github.com/crooks-s/a_random_quote_generator-v1",
-    liveUrl: "https://crooks-s.github.io/a_random_quote_generator-v1/",
-  },
-  {
     id: 2,
     title: "Data Pagination and Filtering",
     description: "This application presents a list of students in a hard-coded data file. A pagination feature and a 'real-time' search function is added to the application.",
@@ -76,9 +68,19 @@ const projectsData = [
     gitUrl: "https://github.com/crooks-s/full-stack-app-with-react-and-a-rest-api-v1",
     liveUrl: "https://fullstackapp.up.railway.app/",
   },
+  {
+    id: 10,
+    title: "Malt-Coin",
+    description: "This is a mock cryptocurrency, malt-coin, that also has a blockchain and smart contract. It implements Firebase authentication and Firestore for user data storage, along with JWTs for authorization.",
+    image: "/images/projects/11.png",
+    gitUrl: "https://github.com/crooks-s/malt-coin",
+    liveUrl: "https://malt-coin.up.railway.app/",
+  },
 ];
 
 const ProjectsSection = () => {
+  const reversedProjectsData = [...projectsData].reverse();
+
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-12 mb-3 md:mb-6">
@@ -88,7 +90,7 @@ const ProjectsSection = () => {
       </div>
       <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
         {/* iterate through projects to render each project card */}
-        {projectsData.map((project) => (
+        {reversedProjectsData.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
